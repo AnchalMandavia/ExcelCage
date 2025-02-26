@@ -6,113 +6,108 @@ function ProductDetail() {
   const { id } = useParams();
 
   const products = {
-    'luxury-sedans': {
-      title: "Luxury Sedans",
-      image: "https://images.unsplash.com/photo-1619767886558-efdc259b6e09?auto=format&fit=crop&q=80",
-      description: "Experience unparalleled comfort and sophistication with our range of luxury sedans. Each model is crafted with meticulous attention to detail and features the latest in automotive technology.",
-      features: ["Premium leather interior", "Advanced driver assistance", "Premium sound system"],
+    "Taper_Roller_Cage": {
+      title: "Taper Roller Cage",
+      image: "/Images/Cage.png",
+      description: "Designed for high-load applications, the Taper Roller Cage ensures smooth and reliable performance in demanding conditions.",
+      features: ["High load capacity", "Durable metal construction", "Precision-engineered for stability"],
       specifications: {
-        engine: "3.0L V6 Twin-Turbo",
-        power: "362 hp @ 5,500 rpm",
-        torque: "369 lb-ft @ 1,600-4,500 rpm",
-        transmission: "9-speed automatic",
-        acceleration: "0-60 mph in 4.9 seconds",
-        topSpeed: "155 mph (electronically limited)"
+        material: "Hardened steel",
+        loadCapacity: "High radial and axial load support",
+        lubrication: "Oil/grease compatible",
+        temperatureRange: "-40°C to 200°C",
+        durability: "Extended service life"
       },
       highlights: [
-        "Handcrafted interior with premium materials",
-        "Advanced driver assistance systems",
-        "64-color ambient lighting",
-        "Burmester® surround sound system",
-        "Air suspension with adaptive damping"
+        "Optimized for heavy-duty applications",
+        "Resistant to wear and deformation",
+        "Ensures reduced friction and heat generation",
+        "Suitable for high-speed operations",
+        "Engineered for improved efficiency"
       ]
     },
-    'electric-vehicles': {
-      title: "Electric Vehicles",
-      image: "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?auto=format&fit=crop&q=80",
-      description: "Our electric vehicles represent the future of sustainable transportation. Combining impressive range with cutting-edge technology, these vehicles deliver both performance and environmental consciousness.",
-      features: ["Long-range battery", "Fast charging capability", "Zero emissions"],
+    "Cylindrical_Roller_Cage": {
+      title: "Cylindrical Roller Cage",
+      image: "/Images/Cage.png",
+      description: "The Cylindrical Roller Cage is built for high radial loads and precision movement, ensuring smooth rotation and efficiency.",
+      features: ["High radial load capacity", "Optimized roller guidance", "Minimal friction design"],
       specifications: {
-        motor: "Dual Motor AWD",
-        power: "480 hp",
-        range: "350 miles",
-        charging: "10-80% in 30 minutes",
-        acceleration: "0-60 mph in 3.5 seconds",
-        topSpeed: "162 mph"
+        material: "Alloy steel",
+        loadCapacity: "Supports high radial forces",
+        lubrication: "Grease/oil compatibility",
+        temperatureRange: "-30°C to 180°C",
+        durability: "Low wear and high longevity"
       },
       highlights: [
-        "Zero emissions powertrain",
-        "Over-the-air software updates",
-        "Advanced regenerative braking",
-        "17-inch touchscreen display",
-        "Full self-driving capability"
+        "High-speed capability with reduced heat generation",
+        "Precision manufacturing for smooth operation",
+        "Increased load-bearing surface area",
+        "Resistant to impact and deformation",
+        "Ideal for gearboxes and heavy machinery"
       ]
     },
-    'suvs': {
-      title: "SUVs",
-      image: "https://images.unsplash.com/photo-1519245659620-e859806a8d3b?auto=format&fit=crop&q=80",
-      description: "Our SUV lineup offers versatility without compromise. Perfect for both urban adventures and off-road excursions, these vehicles provide space, comfort, and capability.",
-      features: ["Spacious interior", "All-wheel drive", "Advanced safety features"],
+    "Spherical_Roller_Cage": {
+      title: "Spherical Roller Cage",
+      image: "/Images/Cage.png",
+      description: "A high-performance cage for spherical roller bearings, designed for applications requiring self-aligning capability.",
+      features: ["Self-aligning ability", "Supports both radial and axial loads", "Impact-resistant design"],
       specifications: {
-        engine: "2.0L Turbo I4",
-        power: "255 hp @ 5,800 rpm",
-        torque: "273 lb-ft @ 1,800-4,800 rpm",
-        transmission: "8-speed automatic",
-        groundClearance: "8.0 inches",
-        cargoSpace: "63.3 cubic feet"
+        material: "Brass or steel",
+        loadCapacity: "Handles heavy radial and axial loads",
+        lubrication: "Oil/grease optimized",
+        temperatureRange: "-25°C to 220°C",
+        durability: "Long operational lifespan"
       },
       highlights: [
-        "Intelligent all-wheel drive",
-        "Panoramic sunroof",
-        "Power liftgate",
-        "Third-row seating",
-        "Off-road driving modes"
+        "Designed for misalignment compensation",
+        "Enhanced durability under tough conditions",
+        "Reduces vibration and noise",
+        "Ideal for industrial and mining applications",
+        "Engineered for superior shock resistance"
       ]
     },
-    'sports-cars': {
-      title: "Sports Cars",
-      image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80",
-      description: "Designed for driving enthusiasts, our sports cars deliver exhilarating performance and precise handling. Each model represents the perfect blend of power and aerodynamic efficiency.",
-      features: ["High-performance engine", "Aerodynamic design", "Sport-tuned suspension"],
+    'Brass_Cage': {
+      title: "Brass Cage",
+      image: "/Images/Cage.png",
+      description: "A premium-quality brass cage offering superior durability and wear resistance for demanding applications.",
+      features: ["High strength and toughness", "Excellent wear resistance", "Superior corrosion protection"],
       specifications: {
-        engine: "4.0L V8 Twin-Turbo",
-        power: "503 hp @ 6,250 rpm",
-        torque: "505 lb-ft @ 2,100-5,500 rpm",
-        transmission: "8-speed dual-clutch",
-        acceleration: "0-60 mph in 3.2 seconds",
-        topSpeed: "195 mph"
+        material: "Brass",
+        loadCapacity: "High-speed and heavy-load capability",
+        lubrication: "Optimized for oil/grease",
+        temperatureRange: "-20°C to 250°C",
+        durability: "Exceptional service life"
       },
       highlights: [
-        "Carbon fiber construction",
-        "Active aerodynamics",
-        "Track-focused suspension",
-        "Carbon ceramic brakes",
-        "Race-inspired cockpit"
+        "Resists wear and fatigue over long-term use",
+        "Non-magnetic and corrosion-resistant properties",
+        "Ideal for high-speed and high-temperature environments",
+        "Lightweight yet extremely strong",
+        "Commonly used in aerospace and automotive industries"
       ]
     },
-    'hybrid-vehicles': {
-      title: "Hybrid Vehicles",
-      image: "https://images.unsplash.com/photo-1621293954908-907159247fc8?auto=format&fit=crop&q=80",
-      description: "Our hybrid vehicles offer the perfect balance of efficiency and performance. Enjoy reduced emissions and improved fuel economy without sacrificing the driving experience.",
-      features: ["Fuel efficiency", "Regenerative braking", "ECO driving mode"],
+    "Plastic_Cage": {
+      title: "Plastic Cage",
+      image: "/Images/Cage.png",
+      description: "A lightweight and low-friction cage designed for applications requiring high efficiency and minimal maintenance.",
+      features: ["Lightweight construction", "Low-friction properties", "Corrosion-resistant material"],
       specifications: {
-        engine: "2.5L I4 + Electric Motor",
-        combinedPower: "219 hp",
-        fuelEconomy: "52 city / 48 highway mpg",
-        electricRange: "32 miles",
-        charging: "2.5 hours (240V)",
-        transmission: "eCVT"
+        material: "High-performance polymer",
+        loadCapacity: "Optimized for low to medium loads",
+        lubrication: "Self-lubricating capability",
+        temperatureRange: "-40°C to 120°C",
+        durability: "Long-lasting and maintenance-free"
       },
       highlights: [
-        "Seamless hybrid powertrain",
-        "EV-only capability",
-        "Energy monitoring system",
-        "Predictive efficiency assistant",
-        "Multiple driving modes"
+        "Reduced weight for improved efficiency",
+        "Low noise and friction operation",
+        "Resistant to moisture and chemicals",
+        "Extended service life with minimal maintenance",
+        "Suitable for electrical insulation applications"
       ]
     }
   };
-
+  
   const product = products[id as keyof typeof products];
 
   if (!product) {

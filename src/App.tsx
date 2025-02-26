@@ -6,7 +6,7 @@ function App() {
   const products = [
     {
       id: "Taper_Roller_Cage",
-      image: "Images/Cage.png",
+      image: "/Images/Cage.png",
       title: "Taper Roller Cage",
       description: "a small desc?"
     },

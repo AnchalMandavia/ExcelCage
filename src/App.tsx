@@ -12,25 +12,25 @@ function App() {
     },
     {
       id: "Cylindrical_Roller_Cage",
-      image: "Images/Cage.png",
+      image: "/Images/Cage.png",
       title: "Cylindrical Roller Cage",
       description: "a small desc?"
     },
     {
       id: "Spherical_Roller_Cage",
-      image: "Images/Cage.png",
+      image: "/Images/Cage.png",
       title: "Spherical Roller Cage",
       description: "a small desc?"
     },
     {
       id: "Brass_Cage",
-      image: "Images/Cage.png",
+      image: "/Images/Cage.png",
       title: "Brass Cage",
       description: "a small desc?"
     },
     {
       id: "Plastic_Cage",
-      image: "Images/Cage.png",
+      image: "/Images/Cage.png",
       title: "Plastic Cage",
       description: "a small desc?"
     }
@@ -39,28 +39,28 @@ function App() {
   const customers = [
     { 
       name: "ARB Bearings",
-      image: "Images/Arb_logo.png"
+      image: "/Images/Arb_logo.png"
     },
     { name: "Timken Bearings ",
-      image: "Images/Timken_logo.png"
+      image: "/Images/Timken_logo.png"
     },
     { name: "Orbit Bearings",
-      image: "Images/Orbit_logo.png"
+      image: "/Images/Orbit_logo.png"
     },
     { name: "ZVL Bearings",
-      image: "Images/Zvl_logo.png"
+      image: "/Images/Zvl_logo.png"
     },
     { name: "SKF Bearings",
-      image: "Images/Skf_logo.png"
+      image: "/Images/Skf_logo.png"
     },
     { name: "Future Mobility Tech",
-      image: "Images/Cage.png"
+      image: "/Images/Cage.png"
     },
     { name: "AutoTech Industries",
-      image: "Images/Cage.png"
+      image: "/Images/Cage.png"
     },
     { name: "Sustainable Transport Corp",
-      image: "Images/Cage.png"
+      image: "/Images/Cage.png"
     },
   ];
 

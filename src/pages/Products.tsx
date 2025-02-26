@@ -5,41 +5,112 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 function Products() {
   const products = [
     {
-      id: "luxury-sedans",
-      image: "https://images.unsplash.com/photo-1619767886558-efdc259b6e09?auto=format&fit=crop&q=80",
-      title: "Luxury Sedans",
-      description: "Experience unparalleled comfort and sophistication with our range of luxury sedans. Each model is crafted with meticulous attention to detail and features the latest in automotive technology.",
-      features: ["Premium leather interior", "Advanced driver assistance", "Premium sound system"]
+      id: "Taper_Roller_Cage",
+      image: "Images/Cage.png",
+      title: "Taper Roller Cage",
+      description: "Designed for high-load applications, the Taper Roller Cage ensures smooth and reliable performance in demanding conditions.",
+      features: ["High load capacity", "Durable metal construction", "Precision-engineered for stability"],
+      specifications: {
+        material: "Hardened steel",
+        loadCapacity: "High radial and axial load support",
+        lubrication: "Oil/grease compatible",
+        temperatureRange: "-40°C to 200°C",
+        durability: "Extended service life"
+      },
+      highlights: [
+        "Optimized for heavy-duty applications",
+        "Resistant to wear and deformation",
+        "Ensures reduced friction and heat generation",
+        "Suitable for high-speed operations",
+        "Engineered for improved efficiency"
+      ]
     },
     {
-      id: "electric-vehicles",
-      image: "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?auto=format&fit=crop&q=80",
-      title: "Electric Vehicles",
-      description: "Our electric vehicles represent the future of sustainable transportation. Combining impressive range with cutting-edge technology, these vehicles deliver both performance and environmental consciousness.",
-      features: ["Long-range battery", "Fast charging capability", "Zero emissions"]
+      id: "Cylindrical_Roller_Cage",
+      image: "Images/Cage.png",
+      title: "Cylindrical Roller Cage",
+      description: "The Cylindrical Roller Cage is built for high radial loads and precision movement, ensuring smooth rotation and efficiency.",
+      features: ["High radial load capacity", "Optimized roller guidance", "Minimal friction design"],
+      specifications: {
+        material: "Alloy steel",
+        loadCapacity: "Supports high radial forces",
+        lubrication: "Grease/oil compatibility",
+        temperatureRange: "-30°C to 180°C",
+        durability: "Low wear and high longevity"
+      },
+      highlights: [
+        "High-speed capability with reduced heat generation",
+        "Precision manufacturing for smooth operation",
+        "Increased load-bearing surface area",
+        "Resistant to impact and deformation",
+        "Ideal for gearboxes and heavy machinery"
+      ]
     },
     {
-      id: "suvs",
-      image: "https://images.unsplash.com/photo-1519245659620-e859806a8d3b?auto=format&fit=crop&q=80",
-      title: "SUVs",
-      description: "Our SUV lineup offers versatility without compromise. Perfect for both urban adventures and off-road excursions, these vehicles provide space, comfort, and capability.",
-      features: ["Spacious interior", "All-wheel drive", "Advanced safety features"]
+      id: "Spherical_Roller_Cage",
+      image: "Images/Cage.png",
+      title: "Spherical Roller Cage",
+      description: "A high-performance cage for spherical roller bearings, designed for applications requiring self-aligning capability.",
+      features: ["Self-aligning ability", "Supports both radial and axial loads", "Impact-resistant design"],
+      specifications: {
+        material: "Brass or steel",
+        loadCapacity: "Handles heavy radial and axial loads",
+        lubrication: "Oil/grease optimized",
+        temperatureRange: "-25°C to 220°C",
+        durability: "Long operational lifespan"
+      },
+      highlights: [
+        "Designed for misalignment compensation",
+        "Enhanced durability under tough conditions",
+        "Reduces vibration and noise",
+        "Ideal for industrial and mining applications",
+        "Engineered for superior shock resistance"
+      ]
     },
     {
-      id: "sports-cars",
-      image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80",
-      title: "Sports Cars",
-      description: "Designed for driving enthusiasts, our sports cars deliver exhilarating performance and precise handling. Each model represents the perfect blend of power and aerodynamic efficiency.",
-      features: ["High-performance engine", "Aerodynamic design", "Sport-tuned suspension"]
+      id: "Brass_Cage",
+      image: "Images/Cage.png",
+      title: "Brass Cage",
+      description: "A premium-quality brass cage offering superior durability and wear resistance for demanding applications.",
+      features: ["High strength and toughness", "Excellent wear resistance", "Superior corrosion protection"],
+      specifications: {
+        material: "Brass",
+        loadCapacity: "High-speed and heavy-load capability",
+        lubrication: "Optimized for oil/grease",
+        temperatureRange: "-20°C to 250°C",
+        durability: "Exceptional service life"
+      },
+      highlights: [
+        "Resists wear and fatigue over long-term use",
+        "Non-magnetic and corrosion-resistant properties",
+        "Ideal for high-speed and high-temperature environments",
+        "Lightweight yet extremely strong",
+        "Commonly used in aerospace and automotive industries"
+      ]
     },
     {
-      id: "hybrid-vehicles",
-      image: "https://images.unsplash.com/photo-1621293954908-907159247fc8?auto=format&fit=crop&q=80",
-      title: "Hybrid Vehicles",
-      description: "Our hybrid vehicles offer the perfect balance of efficiency and performance. Enjoy reduced emissions and improved fuel economy without sacrificing the driving experience.",
-      features: ["Fuel efficiency", "Regenerative braking", "ECO driving mode"]
+      id: "Plastic_Cage",
+      image: "Images/Cage.png",
+      title: "Plastic Cage",
+      description: "A lightweight and low-friction cage designed for applications requiring high efficiency and minimal maintenance.",
+      features: ["Lightweight construction", "Low-friction properties", "Corrosion-resistant material"],
+      specifications: {
+        material: "High-performance polymer",
+        loadCapacity: "Optimized for low to medium loads",
+        lubrication: "Self-lubricating capability",
+        temperatureRange: "-40°C to 120°C",
+        durability: "Long-lasting and maintenance-free"
+      },
+      highlights: [
+        "Reduced weight for improved efficiency",
+        "Low noise and friction operation",
+        "Resistant to moisture and chemicals",
+        "Extended service life with minimal maintenance",
+        "Suitable for electrical insulation applications"
+      ]
     }
   ];
+  
 
   return (
     <div className="min-h-screen bg-gray-50 py-12">

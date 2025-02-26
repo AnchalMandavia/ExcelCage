@@ -6,31 +6,31 @@ function App() {
   const products = [
     {
       id: "Taper_Roller_Cage",
-      image: "https://drive.google.com/file/d/1BFI3tfQ3X8sUoNBtAelySdN5Fqagn7F7/view?usp=drive_link",
+      image: "src/Images/Cage.png",
       title: "Taper Roller Cage",
       description: "a small desc?"
     },
     {
       id: "Cylindrical_Roller_Cage",
-      image: "Images/Cage.png",
+      image: "src/Images/Cage.png",
       title: "Cylindrical Roller Cage",
       description: "a small desc?"
     },
     {
       id: "Spherical_Roller_Cage",
-      image: "Images/Cage.png",
+      image: "src/Images/Cage.png",
       title: "Spherical Roller Cage",
       description: "a small desc?"
     },
     {
       id: "Brass_Cage",
-      image: "Images/Cage.png",
+      image: "src/Images/Cage.png",
       title: "Brass Cage",
       description: "a small desc?"
     },
     {
       id: "Plastic_Cage",
-      image: "Images/Cage.png",
+      image: "src/Images/Cage.png",
       title: "Plastic Cage",
       description: "a small desc?"
     }
@@ -39,28 +39,28 @@ function App() {
   const customers = [
     { 
       name: "ARB Bearings",
-      image: "/Images/Arb_logo.png"
+      image: "src/Images/Arb_logo.png"
     },
     { name: "Timken Bearings ",
-      image: "/Images/Timken_logo.png"
+      image: "src/Images/Timken_logo.png"
     },
     { name: "Orbit Bearings",
-      image: "/Images/Orbit_logo.png"
+      image: "src/Images/Orbit_logo.png"
     },
     { name: "ZVL Bearings",
-      image: "/Images/Zvl_logo.png"
+      image: "src/Images/Zvl_logo.png"
     },
     { name: "SKF Bearings",
-      image: "/Images/Skf_logo.png"
+      image: "src/Images/Skf_logo.png"
     },
     { name: "Future Mobility Tech",
-      image: "/Images/Cage.png"
+      image: "src/Images/Cage.png"
     },
     { name: "AutoTech Industries",
-      image: "/Images/Cage.png"
+      image: "src/Images/Cage.png"
     },
-    { name: "Sustainable Transport Corp",
-      image: "/Images/Cage.png"
+    { name: "Sustainable Transport",
+      image: "src/Images/Cage.png"
     },
   ];
 
@@ -122,7 +122,7 @@ function App() {
               <div className="flex space-x-6" style={{ minWidth: 'max-content' }}>
                 {products.map((product, index) => (
                   <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden flex-shrink-0" style={{ width: '300px' }}>
-                    <img src="https://drive.google.com/file/d/1BFI3tfQ3X8sUoNBtAelySdN5Fqagn7F7/view?usp=drive_link" alt={product.title} className="w-full h-48 object-cover" />
+                    <img src={product.image} alt={product.title} className="w-full h-48 object-cover" />
                     <div className="p-6">
                       <h3 className="text-xl font-semibold mb-2">{product.title}</h3>
                       <p className="text-gray-600 mb-4">{product.description}</p>
@@ -204,7 +204,7 @@ function App() {
                 {customers.map((customer, index) => (
                   <div key={index} className="flex-shrink-0 w-64 flex flex-col items-center bg-white rounded-lg shadow-lg p-8">
                     {/* <Users className="w-12 h-12 text-gray-400 mb-4" /> */}
-                    <img src={customer.image} alt={customer.name} className="w-16 h-16 object-cover rounded-full mb-4 mx-auto"/>
+                    <img src={customer.image} alt={customer.name} className="w-26 h-16 flex-auto"/>
                     <span className="text-gray-700 font-medium text-center">{customer.name}</span>
                   </div>
                 ))}

@@ -6,7 +6,7 @@ function Products() {
   const products = [
     {
       id: "Taper_Roller_Cage",
-      image: "src/Images/Cage.png",
+      image: "/Images/Cage.png",
       title: "Taper Roller Cage",
       description: "Designed for high-load applications, the Taper Roller Cage ensures smooth and reliable performance in demanding conditions.",
       features: ["High load capacity", "Durable metal construction", "Precision-engineered for stability"],
@@ -27,7 +27,7 @@ function Products() {
     },
     {
       id: "Cylindrical_Roller_Cage",
-      image: "src/Images/Cage.png",
+      image: "/Images/Cage.png",
       title: "Cylindrical Roller Cage",
       description: "The Cylindrical Roller Cage is built for high radial loads and precision movement, ensuring smooth rotation and efficiency.",
       features: ["High radial load capacity", "Optimized roller guidance", "Minimal friction design"],
@@ -48,7 +48,7 @@ function Products() {
     },
     {
       id: "Spherical_Roller_Cage",
-      image: "src/Images/Cage.png",
+      image: "/Images/Cage.png",
       title: "Spherical Roller Cage",
       description: "A high-performance cage for spherical roller bearings, designed for applications requiring self-aligning capability.",
       features: ["Self-aligning ability", "Supports both radial and axial loads", "Impact-resistant design"],
@@ -69,7 +69,7 @@ function Products() {
     },
     {
       id: "Brass_Cage",
-      image: "src/Images/Cage.png",
+      image: "/Images/Cage.png",
       title: "Brass Cage",
       description: "A premium-quality brass cage offering superior durability and wear resistance for demanding applications.",
       features: ["High strength and toughness", "Excellent wear resistance", "Superior corrosion protection"],
@@ -90,7 +90,7 @@ function Products() {
     },
     {
       id: "Plastic_Cage",
-      image: "src/Images/Cage.png",
+      image: "/Images/Cage.png",
       title: "Plastic Cage",
       description: "A lightweight and low-friction cage designed for applications requiring high efficiency and minimal maintenance.",
       features: ["Lightweight construction", "Low-friction properties", "Corrosion-resistant material"],

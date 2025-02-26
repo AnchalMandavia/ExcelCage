@@ -122,7 +122,7 @@ function App() {
               <div className="flex space-x-6" style={{ minWidth: 'max-content' }}>
                 {products.map((product, index) => (
                   <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden flex-shrink-0" style={{ width: '300px' }}>
-                    <img src={product.image} alt={product.title} className="w-full h-48 object-cover" />
+                    <img src='/Images/${product.image}' alt={product.title} className="w-full h-48 object-cover" />
                     <div className="p-6">
                       <h3 className="text-xl font-semibold mb-2">{product.title}</h3>
                       <p className="text-gray-600 mb-4">{product.description}</p>

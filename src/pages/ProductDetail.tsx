@@ -8,7 +8,7 @@ function ProductDetail() {
   const products = {
     "Taper_Roller_Cage": {
       title: "Taper Roller Cage",
-      image: "/src/Images/Cage.png",
+      image: "/Images/Cage.png",
       description: "Designed for high-load applications, the Taper Roller Cage ensures smooth and reliable performance in demanding conditions.",
       features: ["High load capacity", "Durable metal construction", "Precision-engineered for stability"],
       specifications: {
@@ -28,7 +28,7 @@ function ProductDetail() {
     },
     "Cylindrical_Roller_Cage": {
       title: "Cylindrical Roller Cage",
-      image: "/src/Images/Cage.png",
+      image: "/Images/Cage.png",
       description: "The Cylindrical Roller Cage is built for high radial loads and precision movement, ensuring smooth rotation and efficiency.",
       features: ["High radial load capacity", "Optimized roller guidance", "Minimal friction design"],
       specifications: {
@@ -48,7 +48,7 @@ function ProductDetail() {
     },
     "Spherical_Roller_Cage": {
       title: "Spherical Roller Cage",
-      image: "/src/Images/Cage.png",
+      image: "/Images/Cage.png",
       description: "A high-performance cage for spherical roller bearings, designed for applications requiring self-aligning capability.",
       features: ["Self-aligning ability", "Supports both radial and axial loads", "Impact-resistant design"],
       specifications: {
@@ -68,7 +68,7 @@ function ProductDetail() {
     },
     'Brass_Cage': {
       title: "Brass Cage",
-      image: "/src/Images/Cage.png",
+      image: "/Images/Cage.png",
       description: "A premium-quality brass cage offering superior durability and wear resistance for demanding applications.",
       features: ["High strength and toughness", "Excellent wear resistance", "Superior corrosion protection"],
       specifications: {
@@ -88,7 +88,7 @@ function ProductDetail() {
     },
     "Plastic_Cage": {
       title: "Plastic Cage",
-      image: "/src/Images/Cage.png",
+      image: "/Images/Cage.png",
       description: "A lightweight and low-friction cage designed for applications requiring high efficiency and minimal maintenance.",
       features: ["Lightweight construction", "Low-friction properties", "Corrosion-resistant material"],
       specifications: {

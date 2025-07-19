@@ -6,61 +6,61 @@ function App() {
   const products = [
     {
       id: "Taper_Roller_Cage",
-      image: "../Public/Images/Cage.PNG",
+      image: "/images/Cage.png", // Corrected path
       title: "Taper Roller Cage",
       description: "a small desc?"
     },
     {
       id: "Cylindrical_Roller_Cage",
-      image: "/Images/Cage.png",
+      image: "/images/Cage.png", // Corrected path
       title: "Cylindrical Roller Cage",
       description: "a small desc?"
     },
     {
       id: "Spherical_Roller_Cage",
-      image: "/Images/Cage.png",
+      image: "/images/Cage.png", // Corrected path
       title: "Spherical Roller Cage",
       description: "a small desc?"
     },
     {
       id: "Brass_Cage",
-      image: "/Images/Cage.png",
+      image: "/images/Cage.png", // Corrected path
       title: "Brass Cage",
       description: "a small desc?"
     },
     {
       id: "Plastic_Cage",
-      image: "/Images/Cage.png",
+      image: "/images/Cage.png", // Corrected path
       title: "Plastic Cage",
       description: "a small desc?"
     }
   ];
 
   const customers = [
-    { 
+    {
       name: "ARB Bearings",
-      image: "/Images/Arb_logo.png"
+      image: "/images/Arb_logo.png" // Corrected path
     },
     { name: "Timken Bearings ",
-      image: "/Images/Timken_logo.png"
+      image: "/images/Timken_logo.png" // Corrected path
     },
     { name: "Orbit Bearings",
-      image: "/Images/Orbit_logo.png"
+      image: "/images/Orbit_logo.png" // Corrected path
     },
     { name: "ZVL Bearings",
-      image: "/Images/Zvl_logo.png"
+      image: "/images/Zvl_logo.png" // Corrected path
     },
     { name: "SKF Bearings",
-      image: "/Images/Skf_logo.png"
+      image: "/images/Skf_logo.png" // Corrected path
     },
     { name: "Future Mobility Tech",
-      image: "/Images/Cage.png"
+      image: "/images/Cage.png" // Corrected path
     },
     { name: "AutoTech Industries",
-      image: "/Images/Cage.png"
+      image: "/images/Cage.png" // Corrected path
     },
     { name: "Sustainable Transport",
-      image: "/Images/Cage.png"
+      image: "/images/Cage.png" // Corrected path
     },
   ];
 
@@ -252,15 +252,18 @@ function App() {
               </div>
             </div>
             <div className="h-[400px] bg-white rounded-lg shadow-lg overflow-hidden">
+              {/* Note: This Google Maps URL is a placeholder and will not work. 
+                  You need to go to Google Maps, find your location, click "Share", 
+                  then "Embed a map", and copy the HTML src URL from there. */}
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14787.941323333669!2d70.76507116025279!3d22.08837717742979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3958365b58373df3%3A0x8b3913034c28949a!2sExcel%20Industries!5e0!3m2!1sen!2sus!4v1740531266697!5m2!1sen!2sus" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3707.971987719693!2d70.74230157588383!3d21.664870465268336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39581b11a575676b%3A0x7754b2542426861!2sExcel%20Industries!5e0!3m2!1sen!2sin!4v1721473665575!5m2!1sen!2sin" 
                 width="100%" 
                 height="100%" 
                 style={{ border:0 }} 
                 allowFullScreen 
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="ExcelCage"
+                title="ExcelCage Location"
               ></iframe>
             </div>
           </div>

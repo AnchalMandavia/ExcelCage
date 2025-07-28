@@ -319,9 +319,11 @@ function App() {
                   <div className="flex items-start space-x-3">
                     <MapPin size={20} className="text-orange-500 mt-1" />
                     <div>
-                      <p>123 Manufacturing Drive</p>
-                      <p>Industrial City, IC 12345</p>
-                      <p>United States</p>
+                      <p>Excel Industries Survey No. 84/2,</p>
+                      <p>Nr. Shreeya Peanuts, B/h. Alox Cast,</p>
+                      <p>Village: Pipaliya - 360311</p>
+                      <p>Tal.: Gondal, Dist.: Rajkot</p>
+                      <p>Gujarat, India</p>
                     </div>
                   </div>
                 </div>
